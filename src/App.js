@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} />
         <p>
@@ -20,7 +21,7 @@ function App() {
           Learn Reactddd
         </a>
       </header>
-      <Navbar />
+
     </div>
   );
 }
