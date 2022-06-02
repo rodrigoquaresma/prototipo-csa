@@ -1,27 +1,19 @@
 import React from 'react';
-import logo from './icons/check-solid.svg';
-import Navbar from './components/navbar.js';
 import './App.css';
+import Navbar from './components/navbar.js';
+import placeholderCoverHome from './images/placeholder-cover-home.png';
+import CarouselSlider from './components/carousel-slider.js';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <header className="App-header">
-        <img src={logo} />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reactddd
-        </a>
-      </header>
-
+      <div className="placeholder-cover-home">
+        <img src={placeholderCoverHome} className="placeholder-cover-home-img" />
+      </div>
+      <div className="general-content-wrapper">
+        <CarouselSlider />
+      </div>
     </div>
   );
 }

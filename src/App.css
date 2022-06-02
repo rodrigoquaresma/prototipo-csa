@@ -6,10 +6,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 body a {
-  color: #fff;
+  text-decoration:none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+
+.App {
+  position: relative;
+  width: 100%;
+}
+
+.placeholder-cover-home {
+  /* margin-top: -100px; */
+  z-index: 1;
+  position: relative;
+  width: 100%;
+
+}
+.general-content-wrapper {
+  z-index: 2;
+  position: relative;
+  margin-top: -160px;
+  padding-bottom: 80px;
 }
