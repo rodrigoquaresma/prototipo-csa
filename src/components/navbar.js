@@ -7,7 +7,7 @@ import '../styles/navbar.css';
 
 const Navbar = () => {
   return (
-    <section className="navbar">
+    <section className="navbar fixed">
 
       <div className="navbar-wrapper-mobile">
         <img src={logocsaclub} className="navbar-logo" />
@@ -22,6 +22,11 @@ const Navbar = () => {
           <li className="navbar-link"><a className="" href="">Cases</a></li>
           <li className="navbar-link"><a className="" href="">Masterclass</a></li>
         </ul>
+
+        <div className="navbar-links-redux">
+          Início
+          <img src={chavronDown} className="icon-chavron-down" />
+        </div>
 
       </div>
 

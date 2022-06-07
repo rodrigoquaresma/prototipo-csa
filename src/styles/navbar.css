@@ -3,7 +3,7 @@ section.navbar {
   display: flex;
   justify-content: space-between;
   font-size: 16px;
-  z-index: 2;
+  z-index: 200;
   position: fixed;
   width: 100vw;
   top: 0;
@@ -12,6 +12,7 @@ section.navbar {
 
 .navbar-wrapper-mobile {
   display: none;
+  justify-content: center;
 }
 
 .navbar-wrapper-left {
@@ -55,6 +56,10 @@ section.navbar .navbar-logo {
 .navbar-links a.active {
   font-weight: bold;
   border-bottom-color: #fff;
+}
+
+.navbar-links-redux {
+  display: none;
 }
 
 
@@ -166,14 +171,40 @@ section.navbar .navbar-logo {
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+  .navbar-links-redux {
+    display: block;
+  }
+
+  .navbar-links-redux {
+    margin-top: 40px;
+    margin-left: 2em;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .navbar-links-redux img {
+    margin-left: 8px;
+  }
 
 }
 
 @media only screen and (max-width: 480px) {
+
   .navbar-wrapper-mobile {
-    display: block;
+    display: flex;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
+    /* position: fixed; */
   }
   section.navbar .navbar-logo {
     width: auto;

@@ -1,0 +1,121 @@
+
+section.carousel-cover-section {
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #1a1a1a;
+  overflow: hidden;
+}
+
+.carousel-img-cover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.carousel-img-cover img {
+  position: relative;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.carousel-img-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-image: linear-gradient(to top, rgba(26,26,26,1), rgba(26,26,26,0));
+}
+
+.cover-content {
+  position: relative;
+  padding: 186px 80px 24px;
+  width: 38vw;
+  background-image: linear-gradient(to right, rgba(26,26,26,1), rgba(26,26,26,0));
+  color:#fff;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+
+  /* display: none; */
+}
+
+.cover-content-nav {
+  display: flex;
+  gap: 24px;
+}
+
+
+.button-back,
+.button-next {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #33CEE0;
+  border-radius: 8px;
+}
+
+
+
+
+.highlight-name {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 69px;
+  letter-spacing: -0.02em;
+  color: #F2F2F2;
+  margin-bottom: 24px;
+}
+.highlight-content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ccc;
+  margin-bottom: 24px;
+}
+.highlight-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 24px;
+}
+.highlight-participants {}
+
+.highlight-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+
+
+
+
+ @media only screen and (max-width: 1440px) {
+
+ }
+
+ @media only screen and (max-width: 1024px) {
+   .cover-content {
+     width: 60vw;
+   }
+ }
+
+ @media only screen and (max-width: 768px) {
+   .cover-content {
+     width: 80vw;
+   }
+ }
+
+ @media only screen and (max-width: 480px) {
+
+ }

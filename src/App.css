@@ -4,6 +4,9 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+
+
 }
 body a {
   text-decoration:none;
@@ -15,20 +18,74 @@ code {
 
 
 .App {
-  position: relative;
-  width: 100%;
+  /* position: relative; */
+  /* width: 100%; */
 }
 
 .placeholder-cover-home {
   /* margin-top: -100px; */
-  z-index: 1;
-  position: relative;
-  width: 100%;
+  /* z-index: 1; */
+  /* position: relative; */
+  /* width: 100vw; */
+  /* overflow: hidden; */
+}
+.placeholder-cover-home img {
+  /* width: 100%; */
+}
+
+.general-content-wrapper {
+  /* z-index: 2; */
+  /* position: relative; */
+  /* margin-top: -160px; */
+  /* padding-bottom: 80px; */
+}
+
+@media only screen and (max-width: 480px) {
+  .general-content-wrapper {
+    /* margin: 0; */
+    /* padding: 0; */
+  }
+}
+
+/* compartilhlados */
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  -webkit-backface-visibility: hidden;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  border-style: solid;
+  border-width: 1px;
 
 }
-.general-content-wrapper {
-  z-index: 2;
-  position: relative;
-  margin-top: -160px;
-  padding-bottom: 80px;
+.button-cian {
+  background: #33CEE0;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border-color: #33CEE0;
+}
+.button-cian-outline {
+  background: transparent;
+  border-radius: 8px;
+  color: #33CEE0;
+  border-color: #33CEE0;
 }

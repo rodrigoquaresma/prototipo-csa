@@ -7,7 +7,9 @@ const CarouselSlider = () => {
   return (
     <section className="carousel-section">
 
-      <h2 class="carousel-section-title">Nome da chamada</h2>
+      <div className="carousel-section-bg"></div>
+
+      <h2 className="carousel-section-title">Nome da chamada</h2>
 
       <div className="carousel-boxline">
 
@@ -19,7 +21,8 @@ const CarouselSlider = () => {
                 <img className="thumb" data-src="" alt="" src={thumb001} />
               </div>
               <div className="info-wrapper">
-                Blavlcllclc
+                <h3 className="info-title">Blavlcllclc</h3>
+                <p className="info-content">Blavlcllclc</p>
               </div>
             </a>
           </div>
@@ -30,7 +33,8 @@ const CarouselSlider = () => {
                 <img className="thumb" data-src="" alt="" src={thumb001} />
               </div>
               <div className="info-wrapper">
-              Blavlcllclc
+                <h3 className="info-title">Blavlcllclc</h3>
+                <p className="info-content">Blavlcllclc</p>
               </div>
             </a>
           </div>
@@ -41,7 +45,8 @@ const CarouselSlider = () => {
                 <img className="thumb" data-src="" alt="" src={thumb001} />
               </div>
               <div className="info-wrapper">
-              Blavlcllclc
+                <h3 className="info-title">Blavlcllclc</h3>
+                <p className="info-content">Blavlcllclc</p>
               </div>
             </a>
           </div>
@@ -52,7 +57,8 @@ const CarouselSlider = () => {
                 <img className="thumb" data-src="" alt="" src={thumb001} />
               </div>
               <div className="info-wrapper">
-              Blavlcllclc
+                <h3 className="info-title">Blavlcllclc</h3>
+                <p className="info-content">Blavlcllclc</p>
               </div>
             </a>
           </div>
@@ -63,7 +69,8 @@ const CarouselSlider = () => {
                 <img className="thumb" data-src="" alt="" src={thumb001} />
               </div>
               <div className="info-wrapper">
-              Blavlcllclc
+                <h3 className="info-title">Blavlcllclc</h3>
+                <p className="info-content">Blavlcllclc</p>
               </div>
             </a>
           </div>
